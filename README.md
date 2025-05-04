@@ -1,14 +1,14 @@
-# 🫀 Heart Disease Prediction
+# Heart Disease Prediction
 
 This project uses machine learning to predict the presence of heart disease based on patient health indicators.
 
-## 📂 Dataset
+## Dataset
 The dataset includes features such as age, sex, chest pain type, cholesterol level, max heart rate, etc.
 
-## 📊 Models Used
+## Models Used
 - Random Forest Classifier (best performing model)
 
-## 🧪 Evaluation
+## Evaluation
 - Accuracy: 87.5%
 - Precision & Recall metrics available in `classification_report.csv`
 - Confusion matrix and ROC curve visuals included
@@ -19,7 +19,7 @@ The dataset includes features such as age, sex, chest pain type, cholesterol lev
 - `confusion_matrix.png`, `roc_curve.png`, `feature_importance.png`: Visuals
 - `classification_report.csv`: Model performance report
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Hyperparameter tuning
 - More model comparisons (e.g., XGBoost, SVM)
 - Streamlit deployment for real-time prediction
